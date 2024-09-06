@@ -32,7 +32,7 @@ on:
 
 env:
   AWS_REGION: ap-southeast-2 # set this to your preferred AWS region, e.g. us-west-1
-  ECR_REPOSITORY: 992382494384.dkr.ecr.ap-southeast-2.amazonaws.com/truongvanduy/cicd-node # set this to your Amazon ECR repository name
+  ECR_REPOSITORY: truongvanduy/cicd-node # set this to your Amazon ECR repository name
   ECS_SERVICE: cicd-node-svc # set this to your Amazon ECS service name
   ECS_CLUSTER: cicd-node # set this to your Amazon ECS cluster name
   ECS_TASK_DEFINITION:
